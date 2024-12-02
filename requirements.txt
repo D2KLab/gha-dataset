@@ -1,0 +1,5 @@
+PyYAML
+requests
+pika
+pymongo
+python-json-logger

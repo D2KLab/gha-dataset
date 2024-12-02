@@ -1,0 +1,184 @@
+{
+    "_id": "pytables/pytables",
+    "total_runs_90d": 159,
+    "repo": {
+      "id": 3495364,
+      "name": "pytables/pytables",
+      "isFork": false,
+      "commits": 4497,
+      "branches": 13,
+      "defaultBranch": "master",
+      "releases": 13,
+      "contributors": 94,
+      "license": "BSD 3-Clause New or Revised License",
+      "watchers": 60,
+      "stargazers": 1230,
+      "forks": 257,
+      "size": 38766,
+      "createdAt": "2011-06-03T07:44:46",
+      "pushedAt": "2023-09-09T06:56:38",
+      "updatedAt": "2023-09-08T04:29:33",
+      "homepage": "http://www.pytables.org",
+      "mainLanguage": "Python",
+      "totalIssues": 687,
+      "openIssues": 147,
+      "totalPullRequests": 352,
+      "openPullRequests": 8,
+      "blankLines": 24036,
+      "codeLines": 110819,
+      "commentLines": 24020,
+      "metrics": [
+        {
+          "commentLines": 1,
+          "codeLines": 27,
+          "blankLines": 8,
+          "language": "DOS Batch"
+        },
+        {
+          "commentLines": 733,
+          "codeLines": 113,
+          "blankLines": 0,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "commentLines": 31,
+          "codeLines": 33196,
+          "blankLines": 1,
+          "language": "SVG"
+        },
+        {
+          "commentLines": 1737,
+          "codeLines": 5393,
+          "blankLines": 1592,
+          "language": "Cython"
+        },
+        {
+          "commentLines": 1541,
+          "codeLines": 3629,
+          "blankLines": 1082,
+          "language": "C"
+        },
+        {
+          "commentLines": 52,
+          "codeLines": 170,
+          "blankLines": 21,
+          "language": "Diff"
+        },
+        {
+          "commentLines": 1,
+          "codeLines": 11,
+          "blankLines": 3,
+          "language": "HTML"
+        },
+        {
+          "commentLines": 17590,
+          "codeLines": 56119,
+          "blankLines": 16589,
+          "language": "Python"
+        },
+        {
+          "commentLines": 135,
+          "codeLines": 521,
+          "blankLines": 81,
+          "language": "Bourne Shell"
+        },
+        {
+          "commentLines": 14,
+          "codeLines": 62,
+          "blankLines": 19,
+          "language": "make"
+        },
+        {
+          "commentLines": 15,
+          "codeLines": 379,
+          "blankLines": 54,
+          "language": "YAML"
+        },
+        {
+          "commentLines": 118,
+          "codeLines": 478,
+          "blankLines": 163,
+          "language": "C/C++ Header"
+        },
+        {
+          "commentLines": 2022,
+          "codeLines": 9898,
+          "blankLines": 4237,
+          "language": "reStructuredText"
+        },
+        {
+          "commentLines": 0,
+          "codeLines": 17,
+          "blankLines": 13,
+          "language": "Markdown"
+        },
+        {
+          "commentLines": 19,
+          "codeLines": 95,
+          "blankLines": 20,
+          "language": "TOML"
+        },
+        {
+          "commentLines": 11,
+          "codeLines": 47,
+          "blankLines": 13,
+          "language": "CMake"
+        },
+        {
+          "commentLines": 0,
+          "codeLines": 658,
+          "blankLines": 140,
+          "language": "Text"
+        },
+        {
+          "commentLines": 0,
+          "codeLines": 6,
+          "blankLines": 0,
+          "language": "TeX"
+        }
+      ],
+      "lastCommit": "2023-09-09T06:56:38",
+      "lastCommitSHA": "416cac8728e40578af77ef91bdee4c754de4b76e",
+      "hasWiki": true,
+      "isArchived": false,
+      "languages": {
+        "Python": 3106887,
+        "Cython": 288679,
+        "C": 191889,
+        "Shell": 19415,
+        "Makefile": 2444,
+        "CMake": 2417,
+        "Gnuplot": 2104
+      },
+      "labels": [
+        "aarch64/arm",
+        "defect",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "from_trac",
+        "good first issues",
+        "help wanted",
+        "in progress",
+        "invalid",
+        "iteration",
+        "osx",
+        "osx-arm64",
+        "python3",
+        "setup",
+        "strings",
+        "task",
+        "tests",
+        "website",
+        "wheel",
+        "windows",
+        "wontfix"
+      ],
+      "topics": []
+    },
+    "etag": "W/\"c4b7e71cef3391969c5eec450667602739fedcdc9032d9cadfbbf647b57267ff\"",
+    "selected": true,
+    "processed": true,
+    "nb_runs": 15,
+    "nb_workflows": 3
+}

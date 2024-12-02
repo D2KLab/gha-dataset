@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  mongodb:
+    container_name: gha-scraper-mongodb
+    restart: always
+    image: mongo:7
+    command:
+    - --wiredTigerCacheSizeGB
+    - "15"
+    ports:
+      - 0.0.0.0:27017:27017
+    volumes:
+      - /data/volumes/mongodb/data:/data/db
+
+  rabbitmq:
+    container_name: gha-scraper-rabbitmq
+    restart: always
+    image: rabbitmq:3.12-management
+    environment:
+    - RABBITMQ_DEFAULT_USER=gha-scraper
+    - RABBITMQ_DEFAULT_PASS=gha-scraper
+    ports:
+      - 0.0.0.0:5672:5672
+      - 127.0.0.1:15672:15672

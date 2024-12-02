@@ -1,0 +1,3861 @@
+{
+  "_id": "pytables/pytables_.github/workflows/wheels.yml_200_1",
+  "repository_name": "pytables/pytables",
+  "workflow_path": ".github/workflows/wheels.yml",
+  "run_number": 200,
+  "run_attempt": 1,
+  "metadata": {
+    "id": 6261949618,
+    "name": "Wheels",
+    "node_id": "WFR_kwLOABwj4s8AAAABdT3Esg",
+    "head_branch": "releases/v3.9.0",
+    "head_sha": "a2033260f6ef6be0fc072af6208e2920bd9ff41e",
+    "path": ".github/workflows/wheels.yml",
+    "display_title": "Remove commented out build dependency on oldest-supported-numpy",
+    "run_number": 200,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "workflow_id": 4223699,
+    "check_suite_id": 16411579483,
+    "check_suite_node_id": "CS_kwDOABwj4s8AAAAD0jTUWw",
+    "url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618",
+    "html_url": "https://github.com/PyTables/PyTables/actions/runs/6261949618",
+    "pull_requests": [],
+    "created_at": "2023-09-21T12:55:26Z",
+    "updated_at": "2023-09-21T17:30:42Z",
+    "actor": {
+      "login": "ivilata",
+      "id": 420791,
+      "node_id": "MDQ6VXNlcjQyMDc5MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/420791?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivilata",
+      "html_url": "https://github.com/ivilata",
+      "followers_url": "https://api.github.com/users/ivilata/followers",
+      "following_url": "https://api.github.com/users/ivilata/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivilata/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivilata/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivilata/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivilata/orgs",
+      "repos_url": "https://api.github.com/users/ivilata/repos",
+      "events_url": "https://api.github.com/users/ivilata/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivilata/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "run_attempt": 1,
+    "referenced_workflows": [],
+    "run_started_at": "2023-09-21T12:55:26Z",
+    "triggering_actor": {
+      "login": "ivilata",
+      "id": 420791,
+      "node_id": "MDQ6VXNlcjQyMDc5MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/420791?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivilata",
+      "html_url": "https://github.com/ivilata",
+      "followers_url": "https://api.github.com/users/ivilata/followers",
+      "following_url": "https://api.github.com/users/ivilata/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivilata/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivilata/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivilata/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivilata/orgs",
+      "repos_url": "https://api.github.com/users/ivilata/repos",
+      "events_url": "https://api.github.com/users/ivilata/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivilata/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "jobs_url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618/jobs",
+    "logs_url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618/logs",
+    "check_suite_url": "https://api.github.com/repos/PyTables/PyTables/check-suites/16411579483",
+    "artifacts_url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618/artifacts",
+    "cancel_url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618/cancel",
+    "rerun_url": "https://api.github.com/repos/PyTables/PyTables/actions/runs/6261949618/rerun",
+    "previous_attempt_url": null,
+    "workflow_url": "https://api.github.com/repos/PyTables/PyTables/actions/workflows/4223699",
+    "head_commit": {
+      "id": "a2033260f6ef6be0fc072af6208e2920bd9ff41e",
+      "tree_id": "c8efd5fcd9d3df561d498f4fcd043c02cfca9855",
+      "message": "Remove commented out build dependency on oldest-supported-numpy\n\npython-blosc2 >= 2.2.6 depends on a version of NumPy (>= 1.20.3) which is\nabove that which oldest-supported-numpy depends on (1.17.3) (at least for\nPython >= 3.8).",
+      "timestamp": "2023-09-21T12:54:35Z",
+      "author": {
+        "name": "Ivan Vilata-i-Balaguer",
+        "email": "ivan@selidor.net"
+      },
+      "committer": {
+        "name": "Ivan Vilata-i-Balaguer",
+        "email": "ivan@selidor.net"
+      }
+    },
+    "repository": {
+      "id": 1844194,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxODQ0MTk0",
+      "name": "PyTables",
+      "full_name": "PyTables/PyTables",
+      "private": false,
+      "owner": {
+        "login": "PyTables",
+        "id": 828302,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyODMwMg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/828302?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PyTables",
+        "html_url": "https://github.com/PyTables",
+        "followers_url": "https://api.github.com/users/PyTables/followers",
+        "following_url": "https://api.github.com/users/PyTables/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PyTables/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PyTables/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PyTables/subscriptions",
+        "organizations_url": "https://api.github.com/users/PyTables/orgs",
+        "repos_url": "https://api.github.com/users/PyTables/repos",
+        "events_url": "https://api.github.com/users/PyTables/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PyTables/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/PyTables/PyTables",
+      "description": "A Python package to manage extremely large amounts of data",
+      "fork": false,
+      "url": "https://api.github.com/repos/PyTables/PyTables",
+      "forks_url": "https://api.github.com/repos/PyTables/PyTables/forks",
+      "keys_url": "https://api.github.com/repos/PyTables/PyTables/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/PyTables/PyTables/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/PyTables/PyTables/teams",
+      "hooks_url": "https://api.github.com/repos/PyTables/PyTables/hooks",
+      "issue_events_url": "https://api.github.com/repos/PyTables/PyTables/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/PyTables/PyTables/events",
+      "assignees_url": "https://api.github.com/repos/PyTables/PyTables/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/PyTables/PyTables/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/PyTables/PyTables/tags",
+      "blobs_url": "https://api.github.com/repos/PyTables/PyTables/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/PyTables/PyTables/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/PyTables/PyTables/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/PyTables/PyTables/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/PyTables/PyTables/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/PyTables/PyTables/languages",
+      "stargazers_url": "https://api.github.com/repos/PyTables/PyTables/stargazers",
+      "contributors_url": "https://api.github.com/repos/PyTables/PyTables/contributors",
+      "subscribers_url": "https://api.github.com/repos/PyTables/PyTables/subscribers",
+      "subscription_url": "https://api.github.com/repos/PyTables/PyTables/subscription",
+      "commits_url": "https://api.github.com/repos/PyTables/PyTables/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/PyTables/PyTables/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/PyTables/PyTables/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/PyTables/PyTables/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/PyTables/PyTables/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/PyTables/PyTables/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/PyTables/PyTables/merges",
+      "archive_url": "https://api.github.com/repos/PyTables/PyTables/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/PyTables/PyTables/downloads",
+      "issues_url": "https://api.github.com/repos/PyTables/PyTables/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/PyTables/PyTables/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/PyTables/PyTables/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/PyTables/PyTables/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/PyTables/PyTables/labels{/name}",
+      "releases_url": "https://api.github.com/repos/PyTables/PyTables/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/PyTables/PyTables/deployments"
+    },
+    "head_repository": {
+      "id": 1844194,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxODQ0MTk0",
+      "name": "PyTables",
+      "full_name": "PyTables/PyTables",
+      "private": false,
+      "owner": {
+        "login": "PyTables",
+        "id": 828302,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyODMwMg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/828302?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PyTables",
+        "html_url": "https://github.com/PyTables",
+        "followers_url": "https://api.github.com/users/PyTables/followers",
+        "following_url": "https://api.github.com/users/PyTables/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PyTables/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PyTables/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PyTables/subscriptions",
+        "organizations_url": "https://api.github.com/users/PyTables/orgs",
+        "repos_url": "https://api.github.com/users/PyTables/repos",
+        "events_url": "https://api.github.com/users/PyTables/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PyTables/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/PyTables/PyTables",
+      "description": "A Python package to manage extremely large amounts of data",
+      "fork": false,
+      "url": "https://api.github.com/repos/PyTables/PyTables",
+      "forks_url": "https://api.github.com/repos/PyTables/PyTables/forks",
+      "keys_url": "https://api.github.com/repos/PyTables/PyTables/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/PyTables/PyTables/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/PyTables/PyTables/teams",
+      "hooks_url": "https://api.github.com/repos/PyTables/PyTables/hooks",
+      "issue_events_url": "https://api.github.com/repos/PyTables/PyTables/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/PyTables/PyTables/events",
+      "assignees_url": "https://api.github.com/repos/PyTables/PyTables/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/PyTables/PyTables/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/PyTables/PyTables/tags",
+      "blobs_url": "https://api.github.com/repos/PyTables/PyTables/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/PyTables/PyTables/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/PyTables/PyTables/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/PyTables/PyTables/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/PyTables/PyTables/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/PyTables/PyTables/languages",
+      "stargazers_url": "https://api.github.com/repos/PyTables/PyTables/stargazers",
+      "contributors_url": "https://api.github.com/repos/PyTables/PyTables/contributors",
+      "subscribers_url": "https://api.github.com/repos/PyTables/PyTables/subscribers",
+      "subscription_url": "https://api.github.com/repos/PyTables/PyTables/subscription",
+      "commits_url": "https://api.github.com/repos/PyTables/PyTables/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/PyTables/PyTables/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/PyTables/PyTables/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/PyTables/PyTables/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/PyTables/PyTables/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/PyTables/PyTables/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/PyTables/PyTables/merges",
+      "archive_url": "https://api.github.com/repos/PyTables/PyTables/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/PyTables/PyTables/downloads",
+      "issues_url": "https://api.github.com/repos/PyTables/PyTables/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/PyTables/PyTables/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/PyTables/PyTables/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/PyTables/PyTables/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/PyTables/PyTables/labels{/name}",
+      "releases_url": "https://api.github.com/repos/PyTables/PyTables/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/PyTables/PyTables/deployments"
+    }
+  },
+  "logs_archive": {
+    "path": "/data/logs/PyTables/PyTables/Wheels_856c/200-1.tar.gz"
+  },
+  "total_logs_size": 5547709,
+  "log_insights": [
+    {
+      "file": "2_Test 3.9 x64 wheels for ubuntu-latest.txt",
+      "total_lines": 138,
+      "log_size": 17404,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:41.391000",
+          "duration_sec": 3.420198
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.9",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:44.811000",
+          "duration_sec": 0.21581
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.9.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.9.18/x64/lib"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:45.027000",
+          "duration_sec": 5.290709
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.9.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.9.18/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.9.18/x64/lib"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:50.318000",
+          "duration_sec": 216.617396
+        }
+      ]
+    },
+    {
+      "file": "12_Test 3.11 x64 wheels for macos-latest.txt",
+      "total_lines": 133,
+      "log_size": 17018,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "macos-12",
+      "image_version": "20230901.1",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:46.288000",
+          "duration_sec": 5.768316
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.11",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:52.056000",
+          "duration_sec": 0.273952
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:52.330000",
+          "duration_sec": 11.265858
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:03.596000",
+          "duration_sec": 473.782565
+        }
+      ]
+    },
+    {
+      "file": "7_Test 3.10 x64 wheels for windows-latest.txt",
+      "total_lines": 140,
+      "log_size": 17911,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "windows-2022",
+      "image_version": "20230918.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:45.683000",
+          "duration_sec": 10.378959
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.10",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:56.062000",
+          "duration_sec": 0.375811
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:56.438000",
+          "duration_sec": 14.995312
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:11.433000",
+          "duration_sec": 407.754931
+        }
+      ]
+    },
+    {
+      "file": "1_Build ubuntu-latest wheels for x86_64.txt",
+      "total_lines": 8538,
+      "log_size": 673710,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "checkout",
+          "version": "v3",
+          "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
+          "with": {
+            "fetch-depth": "0",
+            "submodules": "true",
+            "repository": "PyTables/PyTables",
+            "token": "***",
+            "ssh-strict": "true",
+            "persist-credentials": "true",
+            "clean": "true",
+            "sparse-checkout-cone-mode": "true",
+            "fetch-tags": "false",
+            "lfs": "false",
+            "set-safe-directory": "true"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:40.039000",
+          "duration_sec": 9.690793
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:49.730000",
+          "duration_sec": 0.236537
+        },
+        {
+          "type": "action",
+          "repository": "docker",
+          "action": "setup-qemu-action",
+          "version": "v2",
+          "sha": "2b82ce82d56a2a04d2637cd93a637ae1b359c0a7",
+          "with": {
+            "image": "tonistiigi/binfmt:latest",
+            "platforms": "all"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 12:55:49.967000",
+          "duration_sec": 5.153445
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "cache",
+          "version": "v3",
+          "sha": "704facf57e6136b1bc63b828d79edcd491f0ee84",
+          "with": {
+            "path": "hdf5_build",
+            "key": "Linux-x86_64-deps-cache-559d11058464c382db80afdaa0f188a1419653e78ad7d33a8bd3e373cb2165a9-1.14.1-2-05dbd8c00cfcbecd86e75c08563f7506c0a0b80490b2d6094ef31c6d9b02af07",
+            "enableCrossOsArchive": "false",
+            "fail-on-cache-miss": "false",
+            "lookup-only": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 12:55:55.120000",
+          "duration_sec": 0.571966
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib",
+            "CFLAGS": "-g0",
+            "CIBW_ARCHS": "x86_64"
+          },
+          "code": "mkdir hdf5_build\nif [[ Linux = 'Linux' ]]; then\n  docker run --rm -e HDF5_DIR=/io/hdf5_build -e CFLAGS=-g0 -e HDF5_VERSION=1.14.1-2 -v `pwd`:/io:rw quay.io/pypa/manylinux2014_x86_64 /io/ci/github/get_hdf5.sh\nelse\n  HDF5_DIR=`pwd`/hdf5_build ci/github/get_hdf5.sh\nfi",
+          "error": {
+            "error": "Parser exception",
+            "originalError": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>TypeError: Converting circular structure to JSON<br> &nbsp; &nbsp;--&gt; starting at object with constructor &#39;BashWord&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; property &#39;children&#39; -&gt; object with constructor &#39;Array&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; index 0 -&gt; object with constructor &#39;BashLiteral&#39;<br> &nbsp; &nbsp;--- property &#39;parent&#39; closes the circle<br> &nbsp; &nbsp;at JSON.stringify (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at stringify (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:1150:12)<br> &nbsp; &nbsp;at ServerResponse.json (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:271:14)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/build/server.js:26:28<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at compression (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/compression/index.js:220:5)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at urlencodedParser (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/types/urlencoded.js:82:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/read.js:137:5<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:231:16)<br> &nbsp; &nbsp;at done (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:220:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:280:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:517:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1368:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>\n</body>\n</html>\n"
+          },
+          "start_date": "2023-09-21 12:55:55.692000",
+          "duration_sec": 450.144992
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m pip install --upgrade cibuildwheel",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-UPGRADE"
+                  ],
+                  "content": "--upgrade"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "cibuildwheel"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:03:25.837000",
+          "duration_sec": 5.402678
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib",
+            "CFLAGS": "-g0",
+            "CIBW_BUILD_VERBOSITY_MACOS": "3",
+            "CIBW_ARCHS": "x86_64",
+            "CIBW_BEFORE_BUILD": "python -m pip install -U setuptools pip wheel && python -m pip install -r requirements.txt && python -m pip install blosc2",
+            "CIBW_ENVIRONMENT": "DISABLE_AVX2='TRUE' CFLAGS=-g0 HDF5_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_ENVIRONMENT_MACOS": "CC=/usr/bin/clang CXX=/usr/bin/clang HDF5_DIR=/tmp/hdf5 LZO_DIR=/tmp/hdf5 BZIP2_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_BEFORE_ALL_MACOS": "cp -r `pwd`/hdf5_build /tmp/hdf5",
+            "CIBW_BEFORE_ALL_LINUX": "cp -r `pwd`/hdf5_build /tmp/hdf5 && yum -y update && yum install -y zlib-devel bzip2-devel lzo-devel",
+            "CIBW_REPAIR_WHEEL_COMMAND_MACOS": "DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-listdeps {wheel} && DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-wheel --require-archs {delocate_archs} -w {dest_dir} {wheel}"
+          },
+          "code": "python -m cibuildwheel --output-dir wheelhouse",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "cibuildwheel",
+              "categories": [],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "--output-dir"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:03:31.240000",
+          "duration_sec": 1037.711343
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "cp requirements.txt ./wheelhouse/",
+          "commands": [
+            {
+              "annotations": [
+                "SC-CP"
+              ],
+              "command": "cp",
+              "categories": [
+                "FILE_SYSTEM"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-CP-PATH"
+                  ],
+                  "content": "requirements.txt"
+                },
+                {
+                  "annotations": [
+                    "SC-CP-PATH",
+                    "SC-CP-DESTINATION",
+                    "BASH-PATH"
+                  ],
+                  "content": "./wheelhouse/"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:20:48.951000",
+          "duration_sec": 0.025306
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "upload-artifact",
+          "version": "v3",
+          "sha": "a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+          "with": {
+            "path": "./wheelhouse/*.whl",
+            "name": "artifact",
+            "if-no-files-found": "warn"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 13:20:48.976000",
+          "duration_sec": 14.568326
+        }
+      ]
+    },
+    {
+      "file": "1_Test 3.8 x64 wheels for ubuntu-latest.txt",
+      "total_lines": 142,
+      "log_size": 17706,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:44.254000",
+          "duration_sec": 8.782876
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.8",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:53.037000",
+          "duration_sec": 0.206534
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.8.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.8.18/x64/lib"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:53.244000",
+          "duration_sec": 5.548905
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.8.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.8.18/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.8.18/x64/lib"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:58.793000",
+          "duration_sec": 211.621742
+        }
+      ]
+    },
+    {
+      "file": "3_Test 3.10 x64 wheels for ubuntu-latest.txt",
+      "total_lines": 137,
+      "log_size": 17403,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:40.403000",
+          "duration_sec": 3.517808
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.10",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:43.921000",
+          "duration_sec": 0.206054
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.10.13/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.10.13/x64/lib"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:44.127000",
+          "duration_sec": 5.913948
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.10.13/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.10.13/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.10.13/x64/lib"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:50.041000",
+          "duration_sec": 446.906093
+        }
+      ]
+    },
+    {
+      "file": "3_Build macos-latest wheels for x86_64.txt",
+      "total_lines": 15763,
+      "log_size": 2867855,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "macos-12",
+      "image_version": "20230901.1",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "checkout",
+          "version": "v3",
+          "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
+          "with": {
+            "fetch-depth": "0",
+            "submodules": "true",
+            "repository": "PyTables/PyTables",
+            "token": "***",
+            "ssh-strict": "true",
+            "persist-credentials": "true",
+            "clean": "true",
+            "sparse-checkout-cone-mode": "true",
+            "fetch-tags": "false",
+            "lfs": "false",
+            "set-safe-directory": "true"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:43.767000",
+          "duration_sec": 8.787111
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:52.554000",
+          "duration_sec": 1.353893
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "cache",
+          "version": "v3",
+          "sha": "704facf57e6136b1bc63b828d79edcd491f0ee84",
+          "with": {
+            "path": "hdf5_build",
+            "key": "macOS-x86_64-deps-cache-559d11058464c382db80afdaa0f188a1419653e78ad7d33a8bd3e373cb2165a9-1.14.1-2-05dbd8c00cfcbecd86e75c08563f7506c0a0b80490b2d6094ef31c6d9b02af07",
+            "enableCrossOsArchive": "false",
+            "fail-on-cache-miss": "false",
+            "lookup-only": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "start_date": "2023-09-21 12:55:53.908000",
+          "duration_sec": 0.490227
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "CFLAGS": "-g0",
+            "CIBW_ARCHS": "x86_64"
+          },
+          "code": "mkdir hdf5_build\nif [[ macOS = 'Linux' ]]; then\n  docker run --rm -e HDF5_DIR=/io/hdf5_build -e CFLAGS=-g0 -e HDF5_VERSION=1.14.1-2 -v `pwd`:/io:rw quay.io/pypa/manylinux2014_x86_64 /io/ci/github/get_hdf5.sh\nelse\n  HDF5_DIR=`pwd`/hdf5_build ci/github/get_hdf5.sh\nfi",
+          "error": {
+            "error": "Parser exception",
+            "originalError": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>TypeError: Converting circular structure to JSON<br> &nbsp; &nbsp;--&gt; starting at object with constructor &#39;BashWord&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; property &#39;children&#39; -&gt; object with constructor &#39;Array&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; index 0 -&gt; object with constructor &#39;BashLiteral&#39;<br> &nbsp; &nbsp;--- property &#39;parent&#39; closes the circle<br> &nbsp; &nbsp;at JSON.stringify (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at stringify (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:1150:12)<br> &nbsp; &nbsp;at ServerResponse.json (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:271:14)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/build/server.js:26:28<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at compression (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/compression/index.js:220:5)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at urlencodedParser (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/types/urlencoded.js:82:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/read.js:137:5<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:231:16)<br> &nbsp; &nbsp;at done (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:220:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:280:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:517:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1368:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>\n</body>\n</html>\n"
+          },
+          "start_date": "2023-09-21 12:55:54.398000",
+          "duration_sec": 581.213475
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "code": "python -m pip install --upgrade cibuildwheel",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-UPGRADE"
+                  ],
+                  "content": "--upgrade"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "cibuildwheel"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:05:35.612000",
+          "duration_sec": 7.178483
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "CFLAGS": "-g0",
+            "CIBW_BUILD_VERBOSITY_MACOS": "3",
+            "CIBW_ARCHS": "x86_64",
+            "CIBW_BEFORE_BUILD": "python -m pip install -U setuptools pip wheel && python -m pip install -r requirements.txt && python -m pip install blosc2",
+            "CIBW_ENVIRONMENT": "DISABLE_AVX2='TRUE' CFLAGS=-g0 HDF5_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_ENVIRONMENT_MACOS": "CC=/usr/bin/clang CXX=/usr/bin/clang HDF5_DIR=/tmp/hdf5 LZO_DIR=/tmp/hdf5 BZIP2_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_BEFORE_ALL_MACOS": "cp -r `pwd`/hdf5_build /tmp/hdf5",
+            "CIBW_BEFORE_ALL_LINUX": "cp -r `pwd`/hdf5_build /tmp/hdf5 && yum -y update && yum install -y zlib-devel bzip2-devel lzo-devel",
+            "CIBW_REPAIR_WHEEL_COMMAND_MACOS": "DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-listdeps {wheel} && DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-wheel --require-archs {delocate_archs} -w {dest_dir} {wheel}"
+          },
+          "code": "python -m cibuildwheel --output-dir wheelhouse",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "cibuildwheel",
+              "categories": [],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "--output-dir"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:05:42.790000",
+          "duration_sec": 1595.740963
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "code": "cp requirements.txt ./wheelhouse/",
+          "commands": [
+            {
+              "annotations": [
+                "SC-CP"
+              ],
+              "command": "cp",
+              "categories": [
+                "FILE_SYSTEM"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-CP-PATH"
+                  ],
+                  "content": "requirements.txt"
+                },
+                {
+                  "annotations": [
+                    "SC-CP-PATH",
+                    "SC-CP-DESTINATION",
+                    "BASH-PATH"
+                  ],
+                  "content": "./wheelhouse/"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 13:32:18.531000",
+          "duration_sec": 0.08147
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "upload-artifact",
+          "version": "v3",
+          "sha": "a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+          "with": {
+            "path": "./wheelhouse/*.whl",
+            "name": "artifact",
+            "if-no-files-found": "warn"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.11.5/x64"
+          },
+          "start_date": "2023-09-21 13:32:18.613000",
+          "duration_sec": 13.585827
+        }
+      ]
+    },
+    {
+      "file": "5_Test 3.8 x64 wheels for windows-latest.txt",
+      "total_lines": 139,
+      "log_size": 17772,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "windows-2022",
+      "image_version": "20230918.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:45.484000",
+          "duration_sec": 10.748077
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.8",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:56.232000",
+          "duration_sec": 0.532819
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:56.765000",
+          "duration_sec": 25.064718
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.8.10\\x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:21.830000",
+          "duration_sec": 494.151766
+        }
+      ]
+    },
+    {
+      "file": "11_Test 3.10 x64 wheels for macos-latest.txt",
+      "total_lines": 136,
+      "log_size": 17216,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "macos-12",
+      "image_version": "20230901.1",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:46.871000",
+          "duration_sec": 6.515265
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.10",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:53.386000",
+          "duration_sec": 0.290199
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.10.13/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:53.677000",
+          "duration_sec": 8.430502
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.10.13/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.10.13/x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:02.107000",
+          "duration_sec": 451.577731
+        }
+      ]
+    },
+    {
+      "file": "1_Build wheels for win_amd64 on windows-latest.txt",
+      "total_lines": 3049,
+      "log_size": 202316,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "windows-2022",
+      "image_version": "20230918.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "checkout",
+          "version": "v3",
+          "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
+          "with": {
+            "fetch-depth": "0",
+            "submodules": "true",
+            "repository": "PyTables/PyTables",
+            "token": "***",
+            "ssh-strict": "true",
+            "persist-credentials": "true",
+            "clean": "true",
+            "sparse-checkout-cone-mode": "true",
+            "fetch-tags": "false",
+            "lfs": "false",
+            "set-safe-directory": "true"
+          },
+          "env": {},
+          "start_date": "2023-09-21 12:55:41.301000",
+          "duration_sec": 19.142649
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 12:56:00.444000",
+          "duration_sec": 0.417235
+        },
+        {
+          "type": "action",
+          "repository": "conda-incubator",
+          "action": "setup-miniconda",
+          "version": "v2",
+          "sha": "3b0f2504dd76ef23b6d31f291f4913fb60ab5ff3",
+          "with": {
+            "channels": "defaults,conda-forge",
+            "use-only-tar-bz2": "true",
+            "activate-environment": "test",
+            "auto-activate-base": "true",
+            "auto-update-conda": "false",
+            "remove-profiles": "true",
+            "architecture": "x64",
+            "clean-patched-environment-file": "true",
+            "run-post": "true"
+          },
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64"
+          },
+          "start_date": "2023-09-21 12:56:00.861000",
+          "duration_sec": 72.046097
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "INPUT_RUN_POST": "true",
+            "CONDA_PKGS_DIR": "C:\\Users\\runneradmin\\conda_pkgs_dir"
+          },
+          "code": "python -m pip install --upgrade cibuildwheel",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-UPGRADE"
+                  ],
+                  "content": "--upgrade"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "cibuildwheel"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 12:57:12.907000",
+          "duration_sec": 23.156488
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "INPUT_RUN_POST": "true",
+            "CONDA_PKGS_DIR": "C:\\Users\\runneradmin\\conda_pkgs_dir",
+            "CIBW_BUILD": "cp38-win_amd64 cp39-win_amd64 cp310-win_amd64 cp311-win_amd64",
+            "CIBW_BEFORE_ALL_WINDOWS": "conda create --yes --name=build && conda activate build && conda config --env --set subdir win-64 && conda install --yes blosc bzip2 hdf5 lz4 lzo snappy zstd zlib",
+            "CIBW_ENVIRONMENT_WINDOWS": "CONDA_PREFIX=\"C:\\\\Miniconda\\\\envs\\\\build\" PATH=\"$PATH;C:\\\\Miniconda\\\\envs\\\\build\\\\Library\\\\bin\"",
+            "CIBW_ENVIRONMENT": "PYTABLES_NO_EMBEDDED_LIBS=true DISABLE_AVX2=true",
+            "CIBW_BEFORE_BUILD": "python -m pip install -r requirements.txt delvewheel blosc2",
+            "CIBW_REPAIR_WHEEL_COMMAND_WINDOWS": "delvewheel repair -w {dest_dir} {wheel}"
+          },
+          "code": "cibuildwheel --output-dir wheelhouse",
+          "commands": [
+            {
+              "annotations": [],
+              "command": "cibuildwheel",
+              "categories": [],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "--output-dir"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 12:57:36.064000",
+          "duration_sec": 1061.793828
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "upload-artifact",
+          "version": "v3",
+          "sha": "a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+          "with": {
+            "path": "./wheelhouse/*.whl",
+            "name": "artifact",
+            "if-no-files-found": "warn"
+          },
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "INPUT_RUN_POST": "true",
+            "CONDA_PKGS_DIR": "C:\\Users\\runneradmin\\conda_pkgs_dir"
+          },
+          "start_date": "2023-09-21 13:15:17.857000",
+          "duration_sec": 30.304026
+        }
+      ]
+    },
+    {
+      "file": "10_Test 3.9 x64 wheels for macos-latest.txt",
+      "total_lines": 138,
+      "log_size": 17299,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "macos-12",
+      "image_version": "20230901.1",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:46.112000",
+          "duration_sec": 7.510711
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.9",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:53.623000",
+          "duration_sec": 0.288556
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.9.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:53.912000",
+          "duration_sec": 10.283194
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.9.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.9.18/x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:04.195000",
+          "duration_sec": 364.861961
+        }
+      ]
+    },
+    {
+      "file": "4_Test 3.11 x64 wheels for ubuntu-latest.txt",
+      "total_lines": 134,
+      "log_size": 17190,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:40.451000",
+          "duration_sec": 3.833693
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.11",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:44.284000",
+          "duration_sec": 0.197988
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:44.482000",
+          "duration_sec": 5.296878
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:49.779000",
+          "duration_sec": 413.86909
+        }
+      ]
+    },
+    {
+      "file": "8_Test 3.11 x64 wheels for windows-latest.txt",
+      "total_lines": 136,
+      "log_size": 17570,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "windows-2022",
+      "image_version": "20230918.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:48.315000",
+          "duration_sec": 7.474894
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.11",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:55.790000",
+          "duration_sec": 0.390017
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:56.180000",
+          "duration_sec": 23.583854
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.11.5\\x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:19.764000",
+          "duration_sec": 263.368934
+        }
+      ]
+    },
+    {
+      "file": "1_Twine check.txt",
+      "total_lines": 217,
+      "log_size": 21029,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:40.573000",
+          "duration_sec": 3.496974
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:44.070000",
+          "duration_sec": 0.214384
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m pip install twine",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "twine"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:44.285000",
+          "duration_sec": 7.148167
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m twine check wheelhouse/artifact/tables*.tar.gz wheelhouse/artifact/*.whl",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "twine",
+              "categories": [],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "check"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse/artifact/tables*.tar.gz"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse/artifact/*.whl"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:51.433000",
+          "duration_sec": 1.454182
+        }
+      ]
+    },
+    {
+      "file": "1_Build source distribution (1).txt",
+      "total_lines": 6706,
+      "log_size": 835212,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "checkout",
+          "version": "v3",
+          "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
+          "with": {
+            "fetch-depth": "0",
+            "submodules": "true",
+            "repository": "PyTables/PyTables",
+            "token": "***",
+            "ssh-strict": "true",
+            "persist-credentials": "true",
+            "clean": "true",
+            "sparse-checkout-cone-mode": "true",
+            "fetch-tags": "false",
+            "lfs": "false",
+            "set-safe-directory": "true"
+          },
+          "env": {},
+          "start_date": "2023-09-21 12:55:38.734000",
+          "duration_sec": 7.063318
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 12:55:45.797000",
+          "duration_sec": 0.23844
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "sudo apt update\nsudo apt install libbz2-dev libhdf5-serial-dev liblzo2-dev\nsudo apt install latexmk texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra texlive-plain-generic",
+          "commands": [
+            {
+              "annotations": [
+                "SC-SUDO"
+              ],
+              "command": "sudo",
+              "categories": [
+                "PRIVILEGES"
+              ],
+              "args": []
+            },
+            {
+              "annotations": [
+                "SC-SUDO"
+              ],
+              "command": "sudo",
+              "categories": [
+                "PRIVILEGES"
+              ],
+              "args": []
+            },
+            {
+              "annotations": [
+                "SC-SUDO"
+              ],
+              "command": "sudo",
+              "categories": [
+                "PRIVILEGES"
+              ],
+              "args": []
+            },
+            {
+              "annotations": [
+                "SC-APT-UPDATE"
+              ],
+              "command": "apt",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "UPDATE_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "update"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-APT-INSTALL"
+              ],
+              "command": "apt",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "libbz2-dev"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "libhdf5-serial-dev"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "liblzo2-dev"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-APT-INSTALL"
+              ],
+              "command": "apt",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "latexmk"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "texlive-fonts-recommended"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "texlive-latex-recommended"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "texlive-latex-extra"
+                },
+                {
+                  "annotations": [
+                    "SC-APT-PACKAGE"
+                  ],
+                  "content": "texlive-plain-generic"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 12:55:46.036000",
+          "duration_sec": 66.191134
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m pip install --upgrade setuptools pip wheel build\npython -m pip install -r requirements.txt\npython -m pip install sphinx>=1.1 sphinx_rtd_theme numpydoc ipython\npython -m pip install \"blosc2>=2.2.6\"",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-UPGRADE"
+                  ],
+                  "content": "--upgrade"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "setuptools"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "pip"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "wheel"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "build"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-REQUIREMENTS"
+                  ],
+                  "content": "-r requirements.txt"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "sphinx"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "sphinx_rtd_theme"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "numpydoc"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "ipython"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "\"blosc2>=2.2.6\""
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 12:56:52.227000",
+          "duration_sec": 26.500449
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "make PYTHON=python dist",
+          "commands": [
+            {
+              "annotations": [
+                "SC-MAKE"
+              ],
+              "command": "make",
+              "categories": [
+                "BUILD_SYSTEM",
+                "BUILD_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-MAKE-TARGET"
+                  ],
+                  "content": "PYTHON=python"
+                },
+                {
+                  "annotations": [
+                    "SC-MAKE-ARG"
+                  ],
+                  "content": "dist"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 12:57:18.727000",
+          "duration_sec": 388.924237
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "upload-artifact",
+          "version": "v3",
+          "sha": "a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+          "with": {
+            "path": "dist/*",
+            "name": "artifact",
+            "if-no-files-found": "warn"
+          },
+          "env": {
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 13:03:47.651000",
+          "duration_sec": 6.342886
+        }
+      ]
+    },
+    {
+      "file": "6_Test 3.9 x64 wheels for windows-latest.txt",
+      "total_lines": 135,
+      "log_size": 17512,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "windows-2022",
+      "image_version": "20230918.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:46.121000",
+          "duration_sec": 7.102099
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.9",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:53.223000",
+          "duration_sec": 0.47472
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:53.698000",
+          "duration_sec": 28.390966
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "PKG_CONFIG_PATH": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "Python2_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64",
+            "Python3_ROOT_DIR": "C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:22.089000",
+          "duration_sec": 274.350636
+        }
+      ]
+    },
+    {
+      "file": "2_Build ubuntu-latest wheels for aarch64.txt",
+      "total_lines": 8701,
+      "log_size": 689570,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "ubuntu-22.04",
+      "image_version": "20230917.1.0",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "checkout",
+          "version": "v3",
+          "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
+          "with": {
+            "fetch-depth": "0",
+            "submodules": "true",
+            "repository": "PyTables/PyTables",
+            "token": "***",
+            "ssh-strict": "true",
+            "persist-credentials": "true",
+            "clean": "true",
+            "sparse-checkout-cone-mode": "true",
+            "fetch-tags": "false",
+            "lfs": "false",
+            "set-safe-directory": "true"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:37.649000",
+          "duration_sec": 6.382768
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.x",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*"
+          },
+          "start_date": "2023-09-21 12:55:44.032000",
+          "duration_sec": 0.230662
+        },
+        {
+          "type": "action",
+          "repository": "docker",
+          "action": "setup-qemu-action",
+          "version": "v2",
+          "sha": "2b82ce82d56a2a04d2637cd93a637ae1b359c0a7",
+          "with": {
+            "image": "tonistiigi/binfmt:latest",
+            "platforms": "all"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 12:55:44.263000",
+          "duration_sec": 3.315387
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "cache",
+          "version": "v3",
+          "sha": "704facf57e6136b1bc63b828d79edcd491f0ee84",
+          "with": {
+            "path": "hdf5_build",
+            "key": "Linux-aarch64-deps-cache-559d11058464c382db80afdaa0f188a1419653e78ad7d33a8bd3e373cb2165a9-1.14.1-2-05dbd8c00cfcbecd86e75c08563f7506c0a0b80490b2d6094ef31c6d9b02af07",
+            "enableCrossOsArchive": "false",
+            "fail-on-cache-miss": "false",
+            "lookup-only": "false"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 12:55:47.578000",
+          "duration_sec": 0.273435
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib",
+            "CFLAGS": "-g0",
+            "CIBW_ARCHS": "aarch64"
+          },
+          "code": "mkdir hdf5_build\nif [[ Linux = 'Linux' ]]; then\n  docker run --rm -e HDF5_DIR=/io/hdf5_build -e CFLAGS=-g0 -e HDF5_VERSION=1.14.1-2 -v `pwd`:/io:rw quay.io/pypa/manylinux2014_aarch64 /io/ci/github/get_hdf5.sh\nelse\n  HDF5_DIR=`pwd`/hdf5_build ci/github/get_hdf5.sh\nfi",
+          "error": {
+            "error": "Parser exception",
+            "originalError": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>TypeError: Converting circular structure to JSON<br> &nbsp; &nbsp;--&gt; starting at object with constructor &#39;BashWord&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; property &#39;children&#39; -&gt; object with constructor &#39;Array&#39;<br> &nbsp; &nbsp;| &nbsp; &nbsp; index 0 -&gt; object with constructor &#39;BashLiteral&#39;<br> &nbsp; &nbsp;--- property &#39;parent&#39; closes the circle<br> &nbsp; &nbsp;at JSON.stringify (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at stringify (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:1150:12)<br> &nbsp; &nbsp;at ServerResponse.json (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/response.js:271:14)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/build/server.js:26:28<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at compression (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/compression/index.js:220:5)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at urlencodedParser (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/types/urlencoded.js:82:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:328:13)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at next (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at /usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/body-parser/lib/read.js:137:5<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:231:16)<br> &nbsp; &nbsp;at done (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:220:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (/usr/local/lib/node_modules/@tdurieux/bash-command-extractor/node_modules/raw-body/index.js:280:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:517:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1368:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>\n</body>\n</html>\n"
+          },
+          "start_date": "2023-09-21 12:55:47.852000",
+          "duration_sec": 4948.499799
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "python -m pip install --upgrade cibuildwheel",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-UPGRADE"
+                  ],
+                  "content": "--upgrade"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "cibuildwheel"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 14:18:16.351000",
+          "duration_sec": 3.96854
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib",
+            "CFLAGS": "-g0",
+            "CIBW_BUILD_VERBOSITY_MACOS": "3",
+            "CIBW_ARCHS": "aarch64",
+            "CIBW_BEFORE_BUILD": "python -m pip install -U setuptools pip wheel && python -m pip install -r requirements.txt && python -m pip install blosc2",
+            "CIBW_ENVIRONMENT": "DISABLE_AVX2='TRUE' CFLAGS=-g0 HDF5_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_ENVIRONMENT_MACOS": "CC=/usr/bin/clang CXX=/usr/bin/clang HDF5_DIR=/tmp/hdf5 LZO_DIR=/tmp/hdf5 BZIP2_DIR=/tmp/hdf5 LD_LIBRARY_PATH=\"/tmp/hdf5/lib:${LD_LIBRARY_PATH}\" PKG_CONFIG_PATH=\"/tmp/hdf5/lib/pkgconfig:${PKG_CONFIG_PATH}\"",
+            "CIBW_BEFORE_ALL_MACOS": "cp -r `pwd`/hdf5_build /tmp/hdf5",
+            "CIBW_BEFORE_ALL_LINUX": "cp -r `pwd`/hdf5_build /tmp/hdf5 && yum -y update && yum install -y zlib-devel bzip2-devel lzo-devel",
+            "CIBW_REPAIR_WHEEL_COMMAND_MACOS": "DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-listdeps {wheel} && DYLD_FALLBACK_LIBRARY_PATH=/tmp/hdf5/lib delocate-wheel --require-archs {delocate_archs} -w {dest_dir} {wheel}"
+          },
+          "code": "python -m cibuildwheel --output-dir wheelhouse",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "cibuildwheel",
+              "categories": [],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "--output-dir"
+                },
+                {
+                  "annotations": [],
+                  "content": "wheelhouse"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 14:18:20.320000",
+          "duration_sec": 10977.500073
+        },
+        {
+          "type": "shell",
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "code": "cp requirements.txt ./wheelhouse/",
+          "commands": [
+            {
+              "annotations": [
+                "SC-CP"
+              ],
+              "command": "cp",
+              "categories": [
+                "FILE_SYSTEM"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-CP-PATH"
+                  ],
+                  "content": "requirements.txt"
+                },
+                {
+                  "annotations": [
+                    "SC-CP-PATH",
+                    "SC-CP-DESTINATION",
+                    "BASH-PATH"
+                  ],
+                  "content": "./wheelhouse/"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:21:17.820000",
+          "duration_sec": 0.027588
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "upload-artifact",
+          "version": "v3",
+          "sha": "a8a3f3ad30e3422c9c7b888a15615d19a852ae32",
+          "with": {
+            "path": "./wheelhouse/*.whl",
+            "name": "artifact",
+            "if-no-files-found": "warn"
+          },
+          "env": {
+            "HDF5_VERSION": "1.14.1-2",
+            "MACOSX_DEPLOYMENT_TARGET": "10.9",
+            "CIBW_SKIP": "*-musllinux_* cp36-* cp37-* cp312-* ",
+            "CIBW_BUILD": "cp*",
+            "pythonLocation": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "PKG_CONFIG_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python2_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "Python3_ROOT_DIR": "/opt/hostedtoolcache/Python/3.11.5/x64",
+            "LD_LIBRARY_PATH": "/opt/hostedtoolcache/Python/3.11.5/x64/lib"
+          },
+          "start_date": "2023-09-21 17:21:17.848000",
+          "duration_sec": 12.330805
+        }
+      ]
+    },
+    {
+      "file": "9_Test 3.8 x64 wheels for macos-latest.txt",
+      "total_lines": 143,
+      "log_size": 17683,
+      "token_permissions": {
+        "Contents": "read",
+        "Metadata": "read"
+      },
+      "image": "macos-12",
+      "image_version": "20230901.1",
+      "steps": [
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "download-artifact",
+          "version": "v3",
+          "sha": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+          "with": {
+            "path": "./wheelhouse/"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:21:48.232000",
+          "duration_sec": 13.121221
+        },
+        {
+          "type": "action",
+          "repository": "actions",
+          "action": "setup-python",
+          "version": "v4",
+          "sha": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+          "with": {
+            "python-version": "3.8",
+            "architecture": "x64",
+            "check-latest": "false",
+            "token": "***",
+            "update-environment": "true",
+            "allow-prereleases": "false"
+          },
+          "env": {},
+          "start_date": "2023-09-21 17:22:01.353000",
+          "duration_sec": 0.498202
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.8.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64"
+          },
+          "code": "python -m pip install --pre --find-links wheelhouse/artifact/ tables",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [
+                "SC-PIP-INSTALL"
+              ],
+              "command": "pip",
+              "categories": [
+                "PACKAGE_MANAGEMENT",
+                "INSTALL_PACKAGES"
+              ],
+              "args": [
+                {
+                  "annotations": [],
+                  "content": "install"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-F-PRE"
+                  ],
+                  "content": "--pre"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-INSTALL-FIND-LINKS"
+                  ],
+                  "content": "--find-links wheelhouse/artifact/"
+                },
+                {
+                  "annotations": [
+                    "SC-PIP-TARGET"
+                  ],
+                  "content": "tables"
+                }
+              ]
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:01.851000",
+          "duration_sec": 11.728358
+        },
+        {
+          "type": "shell",
+          "env": {
+            "pythonLocation": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "PKG_CONFIG_PATH": "/Users/runner/hostedtoolcache/Python/3.8.18/x64/lib/pkgconfig",
+            "Python_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "Python2_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64",
+            "Python3_ROOT_DIR": "/Users/runner/hostedtoolcache/Python/3.8.18/x64"
+          },
+          "code": "python -m tables.tests.test_all",
+          "commands": [
+            {
+              "annotations": [
+                "SC-PYTHON-MODULE"
+              ],
+              "command": "python",
+              "categories": [
+                "DEVELOPMENT"
+              ],
+              "args": [
+                {
+                  "annotations": [
+                    "SC-PYTHON-MODULE-M"
+                  ],
+                  "content": "-m"
+                }
+              ]
+            },
+            {
+              "annotations": [],
+              "command": "tables.tests.test_all",
+              "categories": [],
+              "args": []
+            }
+          ],
+          "errors": null,
+          "start_date": "2023-09-21 17:22:13.580000",
+          "duration_sec": 489.620016
+        }
+      ]
+    }
+  ]
+}
