@@ -1,6 +1,22 @@
-# GHALogs: Large-scale dataset of GitHub Actions runs
+# GHALogs: A Large-Scale Dataset of GitHub Actions Runs
 
-This code repository contains code and link to dataset presented in the paper "GHALogs: Large-scale dataset of GitHub Actions runs".
+This repository provides the dataset and artifacts associated with the paper _"GHALogs: A Large-Scale Dataset of GitHub Actions Runs"_, presented at the **[Mining Software Repositories 2025 (MSR'25)](https://2025.msrconf.org/)** conference.
+
+The **GHALogs dataset** contains over **116,000 CI/CD workflows** executed via **GitHub Actions (GHA)**, collected from more than **25,000 public repositories** across **20 programming languages**. In total, the dataset includes **513,000 workflow runs** and approximately **2.3 million individual steps**, offering a rich foundation for research on CI/CD practices, failure analysis, software engineering automation, and more.
+
+If you use this dataset in your research, please cite our paper:
+
+```bibtex
+@inproceedings{msr25_ghalogs,
+  author = {Moriconi, Florent and Durieux, Thomas and Falleri, Jean-Rémi and Francillon, Aurélien and Troncy, Raphael},
+  title = {GHALogs: Large-Scale Dataset of GitHub Actions Runs},
+  year = {2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  location = {Ottawa, Canada},
+  series = {MSR '25}
+}
+```
 
 ## Paper
 
