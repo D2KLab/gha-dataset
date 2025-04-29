@@ -4,6 +4,8 @@ This repository provides the dataset and artifacts associated with the paper _"G
 
 The **GHALogs dataset** contains over **116,000 CI/CD workflows** executed via **GitHub Actions (GHA)**, collected from more than **25,000 public repositories** across **20 programming languages**. In total, the dataset includes **513,000 workflow runs** and approximately **2.3 million individual steps**, offering a rich foundation for research on CI/CD practices, failure analysis, software engineering automation, and more.
 
+See the [examples](examples) folder for a quick overview of the data format.
+
 If you use this dataset in your research, please cite our paper:
 
 ```bibtex
