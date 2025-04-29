@@ -2,6 +2,9 @@
 
 This code repository contains code and link to dataset presented in the paper "GHALogs: Large-scale dataset of GitHub Actions runs".
 
+## Paper
+
+The paper is available [here](paper.pdf).
 
 ## Dataset
 
